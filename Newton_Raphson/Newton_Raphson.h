@@ -15,6 +15,10 @@ x[] holds converging x values,
 
 double x0;  // x0 = initial guess
 
+double threshold = 0.00001; // accuracy tolerance (must converge to 5 decimal places)
+
+int cap = MAX; // store number of iterations before convergence (if converges before MAX iterations)
+
 /* ********************************************** */
 /* **********   Initialize variables   ********** */
 /* ********************************************** */

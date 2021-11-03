@@ -1,7 +1,6 @@
 The equation is f(x)= x^3 - 2*x^2 + x - 3.
 
-With an initial guess of 2.00 and 10 iterations,
-the Newton-Raphson sequence is
+With an initial guess of 2.00 the Newton-Raphson sequence is:
 
 Iteration     x (Root)           f(x)
 ----------------------------------------

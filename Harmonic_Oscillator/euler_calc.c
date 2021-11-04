@@ -18,4 +18,5 @@ void eulerCalc()
             xe[i+1] = xe[i] + ve[i]*dt;
             EnEu[i] = 0.5*k*( (ve[i]*ve[i])/(omega*omega) + xe[i]*xe[i] );        
         }
+    EnEu[i] = 0.5*k*( (ve[i]*ve[i])/(omega*omega) + xe[i]*xe[i] );
 }

@@ -27,4 +27,5 @@ void rungeKuttaCalc()
             vrk[i+1] = vrk[i]+(1./6.)*(kv1+2*kv2+2*kv3+kv4)*dt;
             EnRK[i] = 0.5*k*( (vrk[i]*vrk[i])/(omega*omega) + xrk[i]*xrk[i] );
         }
+    EnRK[i] = 0.5*k*( (vrk[i]*vrk[i])/(omega*omega) + xrk[i]*xrk[i] );
 }

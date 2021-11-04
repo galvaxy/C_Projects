@@ -1,5 +1,5 @@
 find_root: main.o initialize.o calculate.o display.o write.o
-	gcc main.o initialize.o calculate.o display.o write.o -o newton_raphson 
+	gcc main.o initialize.o calculate.o display.o write.o -o find_root
 
 main.o: main.c
 	gcc -c main.c

@@ -8,9 +8,10 @@ int main()
 {
     dt = 0.1;
     omega = 1;
+    k=1;
     xo = 0.1;
     vo = 0;
-    
+
     eulerCalc();
     rungeKuttaCalc();
     analyticalCalc();

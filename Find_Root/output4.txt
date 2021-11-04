@@ -1,0 +1,11 @@
+The equation is f(x)= x^3 - 2*x^2 + x - 3.
+
+With an initial guess of 1.00 the Newton-Raphson sequence is:
+
+Iteration     x (Root)           f(x)
+----------------------------------------
+    0         1.00000          -3.00000
+
+
+Initial guess leads to an undefined value.
+Derivative of the polynomial is singular at x[0]

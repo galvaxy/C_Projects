@@ -1,0 +1,1 @@
+This program calculates, numerically, the solution to the harmonicoscillator using both Euler's method and Runge-Kutta 4th order method. Equation of harmonic oscillator is given by d^2x/dt^2 + w^2 x = 0 with w -> angular velocity.

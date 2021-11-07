@@ -1,4 +1,6 @@
 set terminal qt 0
+set terminal jpeg
+set output 'harmonicOscillator.jpeg'
 set size square 
 set xrange [0:5]
 set yrange [-0.2:0.2]
@@ -12,6 +14,8 @@ set style data linespoints
 plot "eulerMethod.txt" using 1:2 lt 7 lw 2 ti "Euler Method", "rungeKuttaMethod.txt" using 1:2 lt 6 lw 2 ti "Runge-Kutta Method"
 
 set terminal qt 1
+set terminal jpeg
+set output 'error.jpeg'
 set size square 
 set xrange [0:5]
 set yrange [-45:45]
@@ -25,6 +29,8 @@ set style data linespoints
 plot "eulerMethod.txt" using 1:3 lt 7 lw 2 ti "Euler Method", "rungeKuttaMethod.txt" using 1:3 lt 6 lw 2 ti "Runge-Kutta Method"
 
 set terminal qt 2
+set terminal jpeg
+set output 'energy.jpeg'
 set size square 
 set xrange [0:5]
 set yrange [0:0.01]

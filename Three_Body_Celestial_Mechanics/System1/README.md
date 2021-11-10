@@ -1,5 +1,7 @@
 INTIAL VALUES FOR THIS SYSTEM:
 
+ This system simulates a binary star system with an orbiting planet. With the initial parameters given below it is found that the planet is in a stable orbit (at least for the time plotted here). 
+
  Masses (Ms = Mass of Sun, Me =  Mass of Earth - in kg):
 
   Mstar1 -> 5 Ms
@@ -19,3 +21,7 @@ INTIAL VALUES FOR THIS SYSTEM:
 
   Star1 velocity -> <0, 0.0097, 0.0077>
   Planet velocity -> <0, -0.005, 0.>
+
+PLOTS:
+
+ The plots.gp file is a GnuPlot script that can be run using GnuPlot in terminal to create plots and animations. A .jpeg file of the binary star system and planet orbits are shown in Orbits.jpeg. An animation of these orbits is shown in Orbits.gif. The radius of each body with respect to the center of mass is plotted in the Radii.jpeg file.

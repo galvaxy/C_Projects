@@ -1,6 +1,6 @@
 INTIAL VALUES FOR THIS SYSTEM:
 
- This system simulates a binary star system with an orbiting planet. With the initial parameters given below it is found that the planet is in a stable orbit (at least for the time plotted here). 
+ This system simulates a binary star system with an orbiting planet. With the initial parameters given below it is found that the planet is in a stable orbit (at least for the time plotted here). The time step for this system is dt = 7 days
 
  Masses (Ms = Mass of Sun, Me =  Mass of Earth - in kg):
 

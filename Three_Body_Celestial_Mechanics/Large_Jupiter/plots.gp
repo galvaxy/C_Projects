@@ -3,11 +3,11 @@ set terminal jpeg
 set output "Radii.jpeg"
 set style data linespoint
 stats "Radii.txt"
-set xlabel offset 0,-1 "t(weeks)" font "Menlo,15"
+set xlabel offset 0,-1 "t(days)" font "Menlo,15"
 set ylabel offset -1,0 "R(AU)" font "Menlo,15"
 set yrange [0:4]
-set xrange[0:2100]
-set xtics 300 font "Menlo,15"
+set xrange[0:4400]
+set xtics 1000 font "Menlo,15"
 set ytics 0.5 font "Menlo,15"
 set grid lt 0 lw 1
 set key font "Menlo,15"

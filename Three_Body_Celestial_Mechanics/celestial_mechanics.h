@@ -2,10 +2,13 @@
 #define CELESTIAL_MECHANICS_H
 
 #define G 1.488082603*pow(10,-34) //Gravitational constant, units-> AU^3/(kg*days^2)
-#define dt 7 //Time step, units-> days
-#define MAXj 1500 //Total number of time steps to be calculated
-#define Ms 1.989*pow(10,30)//Mass of Sun in kg 
-#define Me 5.972*pow(10,24) //Mass of Earth in kg
+#define dt 1 //Time step, units-> days
+#define MAXj 4400 //Total number of time steps to be calculated
+#define Ms 1.989*pow(10, 30)//Mass of Sun in kg 
+#define Me 5.972*pow(10, 24) //Mass of Earth in kg
+#define Mj 1.898*pow(10, 27)//Mass of Jupiter in kg
+#define ve 2*M_PI/(365.25) //velocity of the Earth in Au/day
+#define vj 2*M_PI*5.2/(11.86*365.25) //velocity of Jupiter in Au/day
 
 double x[3][MAXj],y[3][MAXj],z[3][MAXj]; //Arrays to hold positions of three bodies at the j'th time step (ex. x[1][j]=x position of body 1 at time j)
 double vx[3][MAXj],vy[3][MAXj],vz[3][MAXj]; //Arrays to hold velocities of the three bodies at the j'th time step (ex. vx[1][j]=x component of velocity of body 1 at time j)

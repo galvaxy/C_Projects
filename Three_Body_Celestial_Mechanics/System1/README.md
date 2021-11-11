@@ -1,6 +1,6 @@
 INTIAL VALUES FOR THIS SYSTEM:
 
- This system simulates a binary star system with an orbiting planet. With the initial parameters given below it is found that the planet is in a stable orbit (at least for the time plotted here). The time step for this system is dt = 7 days
+ This system simulates a binary star system with an orbiting planet. With the initial parameters given below it is found that the planet is not in a stable orbit and is ejected from the system. The time step for this system is dt = 7 days
 
  Masses (Ms = Mass of Sun, Me =  Mass of Earth - in kg):
 
@@ -12,15 +12,15 @@ INTIAL VALUES FOR THIS SYSTEM:
  
   The initial position of body1 is calculated from the intial positions of body2 and body3 such that the center of mass of the system is centered at the origin. Format is <X, Y, Z>
 
-  body2 position -> <1.5, 0, 0>
-  body3 position -> <8.5, 0, 0>
+  body2 position -> <2.5, 0, 0>
+  body3 position -> <-8.5, 0, 0>
 
  Initial velocities (all velocities are in AU/day):
 
-  The initial velocity of body2 is calculated from the the initial velocities of body1 and body3 such that the center of momentum of the system is centered at the origin. Format is <Vx, Vy, Vz>
+  The initial velocity of body1 is calculated from the the initial velocities of body1 and body3 such that the center of momentum of the system is centered at the origin. Format is <Vx, Vy, Vz>
 
-  body1 velocity -> <0, 0.0097, 0.0077>
-  body3 velocity -> <0, -0.005, 0.>
+  body2 velocity -> <0, 0.019, 0>
+  body3 velocity -> <0, -0.005, 0.007>
 
 PLOTS:
 

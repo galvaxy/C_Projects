@@ -1,6 +1,6 @@
 INITIAL VALUES FOR THE SYSTEM:
 
- This system is the same as the solar system excpet the mass of Jupiter is multiplied by 1000 given the gas giant roughly the same mass as the Sun. The Earth is still 1 Au from the Sun initially and its velocity is unchanged. Jupiter is still 5.2 AU from the Sun initially and its velocity is now split between the planet and the Sun in such a way that the relative velocity between the Sun and Jupiter remains unchanged. It can be seen in the animation that the Earth will continue to orbit the Sun for some time before it gets passed to Jupiter and orbits Jupiter for some time. Finally the Earth is ejected from the solar system. 
+ This system is the same as the solar system excpet the mass of Jupiter is multiplied by 1000 given the gas giant roughly the same mass as the Sun. The Earth is still 1 Au from the Sun initially and its velocity is unchanged. Jupiter is still 5.2 AU from the Sun initially and its velocity is now split between the planet and the Sun in such a way that the relative velocity between the Sun and Jupiter remains unchanged. It can be seen in the animation that the Earth will continue to orbit the Sun for some time before it gets passed to Jupiter and orbits Jupiter for some time. Finally the Earth is ejected from the solar system. The time step for this system is dt = 1 day.
  
 Masses (Ms = Mass of Sun, Me =  Mass of Earth, Mj = Mass of Jupiter - in kg):
 

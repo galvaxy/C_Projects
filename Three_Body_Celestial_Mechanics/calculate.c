@@ -12,11 +12,11 @@ void calculate()
 
     FILE *body1, *body2, *body3, *radii, *orbit;
 
-    body1 = fopen("System1/Star1.txt", "w");
-    body2 = fopen("System1/Star2.txt", "w");
-    body3 = fopen("System1/Planet.txt", "w");
-    radii = fopen("System1/Radii.txt", "w");
-    orbit = fopen("System1/Orbit.txt", "w");
+    body1 = fopen("Solar_System/Sun.txt", "w");
+    body2 = fopen("Solar_System/Jupiter.txt", "w");
+    body3 = fopen("Solar_System/Earth.txt", "w");
+    radii = fopen("Solar_System/Radii.txt", "w");
+    orbit = fopen("Solar_System/Orbit.txt", "w");
 
     //print initial conditions
     //Print Results for body 1

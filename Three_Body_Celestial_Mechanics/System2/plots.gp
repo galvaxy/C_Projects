@@ -38,8 +38,6 @@ splot 'Orbit.txt' using 7:8:9 ti "Planet (2x Me)" lt 0 lw 2 lc rgb "red",\
 'Orbit.txt' using 1:2:3 ti "Star1 (5x Ms)" lt 7 lc rgb "black",\
 'Orbit.txt' using 4:5:6 ti "Star2 (1x Ms)" lt 7 lc rgb "purple"
 
-set terminal gif animate delay 1
-set output "Orbits.gif"
 set size square
 set xrange [-11:11]
 set yrange [-11:11]
@@ -55,7 +53,8 @@ set key font "Menlo,15"
 set key spacing 2
 set grid lt 0 lw 1
 set title "Binary Star Planetary System 2" font "Menlo,20"
-do for [i=0:STATS_blocks]{
+do for [i=0:STATS_blocks]{set terminal jpeg
+set output sprintf("Plots/Orbits%06.0f.jpeg", i)
 splot 'Star1.txt' index i ti "Star1 (5 x Ms)" lt 7 lw 6 lc rgb "black",\
 'Star2.txt' index i ti "Star2 (1 x Ms)\n" lt 7 lw 3 lc rgb "purple",\
 'Planet.txt' index i ti "Planet (2 x Me)\n" lt 7 lw 1 lc rgb "red"}

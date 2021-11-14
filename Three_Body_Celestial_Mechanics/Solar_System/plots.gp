@@ -54,7 +54,7 @@ set key spacing 2
 set grid lt 0 lw 1
 set title "Solar System" font "Menlo,20"
 do for [i=0:STATS_blocks]{set terminal jpeg
-set output sprintf("Plots/Orbits%06.0f.gif",i)
+set output sprintf("Plots/Orbits%06.0f.jpeg",i)
 splot 'Sun.txt' index i ti "Sun (Ms)" lt 7 lw 6 lc rgb "black",\
 'Jupiter.txt' index i ti "Jupiter (Mj)\n" lt 7 lw 3 lc rgb "purple",\
 'Earth.txt' index i ti "Earth (Me)\n" lt 7 lw 1 lc rgb "red"}

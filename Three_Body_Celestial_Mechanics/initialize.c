@@ -13,12 +13,12 @@ void initialize()
     m3 = Me; //Mass of body 3
 
     //Body 2
-    x[1][0] = 2.5;
+    x[1][0] = - 5.2;
     y[1][0] = 0;
     z[1][0] = 0;
 
     //Body 3
-    x[2][0] = -7.0;
+    x[2][0] = 1;
     y[2][0] = 0;
     z[2][0] = 0;
 
@@ -29,12 +29,12 @@ void initialize()
 
     //Body 2
     vx[1][0] = 0; 
-    vy[1][0] = vj;     
+    vy[1][0] = - vj;     
     vz[1][0] = 0;
 
     //Body 3
     vx[2][0] = 0;
-    vy[2][0] = -ve;
+    vy[2][0] = ve;
     vz[2][0] = 0;
 
     //Calculate initial velocity of body 1

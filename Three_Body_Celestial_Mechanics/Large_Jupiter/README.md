@@ -4,15 +4,15 @@ INITIAL VALUES FOR THE SYSTEM:
  
 Masses (Ms = Mass of Sun, Me =  Mass of Earth, Mj = Mass of Jupiter - in kg):
 
-  M1 -> Ms
+  M1 -> Ms 
   M2 -> 1000*Mj
   Mplanet -> Me 
 
  Initial positions (all positions are in AU):
  
-  The initial position of body3 is calculated from the intial positions of body1 and body3 such that the center of mass of the system is centered at the origin. Format is <X, Y, Z>
+  The initial position of body1 is calculated from the intial positions of body2 and body3 such that the center of mass of the system is centered at the origin. Format is <X, Y, Z>
 
-  body1 position -> <5.2 / (1 + m1 / m2), 0, 0>
+  body2 position -> <-5.2 / (1 + m2 / m1), 0, 0>
   body3 position -> <5.2 / (1 + m1 / m2) + 1, 0, 0>
 
  Initial velocities (all velocities are in AU/day):
